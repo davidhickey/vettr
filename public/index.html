@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <link href='fjalla-one.css' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <script src="handlebars-v4.0.5.js"></script>
+    <title>Vettr</title>
+  </head>
+  <body>
+
+
+    <div id="top-label">
+      <img id="dead-bird" src="twitter-dead.jpg" alt="" />
+      <label id="vettr">Vettr</label>
+
+      <span id="login-container">
+        <!--<input class="login-input" type="text" name="name" placeholder="username">
+        <input class="login-input" type="text" name="name" placeholder="password">
+        <input id="login-button" class="login-input" type="submit" value="TWITTER LOGIN">-->
+        <label id="logged-in-label" for=""></label>
+        <a id="login-link" href="/login/twitter/"><button id="login-button">LOG IN BEFORE YOU SEND</button></a>
+      </span>
+    </div>
+
+    <div id="second-label">
+      <label id="message"></label>
+    </div>
+
+      <textarea id="tweet-box" placeholder="enter a tweet"></textarea>
+
+
+    <div id='right-content'>
+      <div id="stupid-content"></div>
+    </div>
+
+    <div id="vet-button-div">
+      <p id="counter-field">Characters: 0</p>
+      <button id="vet-button" type="button" name="button">Vet This Tweet</button>
+      <button id="send-button" type="button" name="button">Send This Tweet</button>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
