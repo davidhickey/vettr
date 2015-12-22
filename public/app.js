@@ -10,7 +10,7 @@ let $stupidContentDiv = $("#stupid-content");
 let username;
 // testing alternative:
 // let username = 'butt';
-let messages = ['\'Cause You Might Be An Asshole','Hide Your Idiocy From The World','Don\'t Fuck Up In Public!',
+let messages = ['\'Cause You Might Be An Asshole','Hide Your Idiocy From The World','Don\'t Screw Up In Public!',
 'Never Pass Up A Good Opportunity To Edit Yourself','It Was Funnier In Your Head','Maybe Write It On A Bathroom Stall Instead',
 'Your Followers Will Thank You','No One Really Wants To Hear It','You\'re Not A Special Snowflake',
 'Not On Twitter, Man, Not On Twitter','We Save You From Yourself','So You Don\'t Have To Deny It Later', "Would You Talk To Your Mother Like That?",
