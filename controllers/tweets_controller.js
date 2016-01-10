@@ -4,7 +4,7 @@ let Tweet = require('../models/tweets.js');
 let User = require('../models/users.js');
 let _ = require('underscore');
 let flags = {'not for nothing':'warn-idiot', 'not for nuthin':'warn-idiot', 'im just saying':'warn-idiot',
-'im just sayin':'warn-idiot','im just sayin':'warn-idiot','vaccines cause autism':'fail-idiot','the best':'warn-idiot',
+'im just sayin':'warn-idiot','vaccines cause autism':'fail-idiot','the best':'warn-idiot',
 'the worst':'warn-idiot','always':'warn-idiot','never':'warn-idiot','freedom':'warn-idiot','have to admit':'warn-idiot',
 'terrible':'warn-idiot','the best':'warn-idiot','nickelback':'fail-idiot','katy perry':'warn-idiot',
 'to be honest':'warn-idiot','when i was younger':'warn-idiot','back in the day':'warn-idiot','guaranteed':'warn-idiot',

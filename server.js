@@ -69,7 +69,7 @@ fs.readdirSync('./controllers').forEach(function (file) {
 passport.use(new Strategy({
     consumerKey: process.env.CONSUMER_KEY,
     consumerSecret: process.env.CONSUMER_SECRET,
-    callbackURL: (process.env.CALLBACK_URL || 'localhost:7000/login/twitter/callback')
+    callbackURL: (process.env.CALLBACK_URL || 'localhost:3000/login/twitter/callback')
   },
   function(token, tokenSecret, profile, cb) {
     theToken = token;
@@ -98,6 +98,7 @@ app.get('/login/twitter',
 app.get('/login/twitter/callback',
   passport.authenticate('twitter', { failureRedirect: '/login' }),
   function(req, res) {
+    console.log('we\'re at the callback url here');
     res.redirect('/');
   });
 
